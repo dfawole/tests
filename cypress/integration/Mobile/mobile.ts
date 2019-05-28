@@ -1,4 +1,5 @@
-const { When, Then, Given } = require('cypress-cucumber-preprocessor/steps');
+// @ts-ignore
+import { When, Then, Given } from 'cypress-cucumber-preprocessor/steps'
 
 Given(/^I am on mobile$/, () => {
     cy.viewport(360, 640);
