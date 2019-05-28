@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://www.game.co.uk",
+  "video": false,
+  "ignoreTestFiles": "**/*.{js,ts}",
+  "env": {
+    "url": "https://www.test.com"
+  }
+}
