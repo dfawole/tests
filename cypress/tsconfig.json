@@ -4,7 +4,7 @@
     "module": "commonjs",
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress", "node", "cucumber"],
+    "types": ["cypress", "node"],
     "esModuleInterop": true,
     "typeRoots": ["node_modules/@types"]
   },
